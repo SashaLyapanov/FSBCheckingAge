@@ -1,0 +1,27 @@
+{
+  "name": "lab5_1",
+  "version": "1.0.3",
+  "description": "My first package",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/SashaLyapanov/FSBCheckingAge.git",
+  "keywords": [
+    "check",
+    "age",
+    "js",
+    "javascript",
+    "node.js",
+    "converts"
+  ],
+  "author": "Lyapanov Alexandr",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "type": "module"
+}
